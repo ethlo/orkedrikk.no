@@ -13,24 +13,12 @@
       padding: 0;
     }
     header {
-      background: url('orkedrikk-banner.png') no-repeat center center/cover;
+      background: url('orkedrikk-banner.png') no-repeat center top/cover;
       height: 80vh;
-      color: #fff;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-shadow: 2px 2px 8px #000;
+      position: relative;
     }
-    header h1 {
-      font-size: 4rem;
-      letter-spacing: 4px;
-      margin: 0;
-    }
-    header p {
-      font-size: 1.5rem;
-      font-style: italic;
-      color: #e0d0c0;
+    header h1, header p {
+      display: none;
     }
     .container {
       display: grid;
