@@ -6,105 +6,109 @@
   <title>Orkedrikk.no - Drikk med Ære</title>
   <style>
     body {
-      background-color: #0f0f0f;
-      color: #f5f5f5;
+      background-color: #0a0a0a;
+      color: #f0f0f0;
       font-family: 'Segoe UI', sans-serif;
       margin: 0;
       padding: 0;
     }
-header {
-  background: url('orkedrikk-banner.png') no-repeat center center/cover;
-  height: 60vh;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-shadow: 2px 2px 8px #000;
-}
+    header {
+      background: url('orkedrikk-banner.png') no-repeat center center/cover;
+      height: 80vh;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-shadow: 2px 2px 8px #000;
+    }
     header h1 {
-      font-size: 3rem;
-      letter-spacing: 2px;
+      font-size: 4rem;
+      letter-spacing: 4px;
+      margin: 0;
     }
     header p {
+      font-size: 1.5rem;
       font-style: italic;
-      color: #aaa;
+      color: #e0d0c0;
     }
     .container {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 2rem;
       padding: 2rem;
     }
     .product {
-      background: #1b1b1b;
-      border: 2px solid crimson;
-      border-radius: 12px;
+      background: #121212;
+      border: 2px solid #770000;
+      border-radius: 10px;
       padding: 1.5rem;
-      transition: transform 0.2s ease;
+      box-shadow: 0 0 15px #44000066;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
     .product:hover {
       transform: scale(1.03);
+      box-shadow: 0 0 25px #ff000088;
     }
     .product h2 {
-      color: crimson;
-      font-size: 1.5rem;
-      margin-bottom: 0.5rem;
+      color: #ff3c3c;
+      font-size: 1.6rem;
+      margin-bottom: 0.3rem;
+      font-family: 'Impact', sans-serif;
     }
     .product p {
       color: #ccc;
       font-size: 0.95rem;
+      font-style: italic;
     }
     footer {
       text-align: center;
       padding: 1rem;
-      color: #555;
+      color: #666;
       font-size: 0.9rem;
+      border-top: 1px solid #333;
+      background: #0a0a0a;
     }
   </style>
 </head>
 <body>
-<header>
-  <h1>ORKEDRIKK.NO</h1>
-  <p>Drikk med ære – eller dø trøtt</p>
-</header>
+  <header>
+    <h1>ORKEDRIKK.NO</h1>
+    <p>Drikk med Ære – eller dø trøtt</p>
+  </header>
 
   <div class="container">
     <div class="product">
-      <h2>Raseri MØRK</h2>
-      <p>For deg som trenger å knuse dagen.</p>
+      <h2>BerserkBlod</h2>
+      <p>Når du ikke bare skal møte dagen – du skal overmanne den. Mørk, tykk og farlig.</p>
     </div>
     <div class="product">
-      <h2>TorsKraft+</h2>
-      <p>Med lynsmak og omega-raseri.</p>
+      <h2>TordenKjeft</h2>
+      <p>Smaker som lyn og dundrer som hammaren til Tor. For kjeften som tåler slag.</p>
     </div>
     <div class="product">
       <h2>OrkeBlod</h2>
-      <p>Brygget på mjød, svette og bjørnebær.</p>
+      <p>Brygget på mjød, svette og bjørnebær. For deg som våkner med blodtørst.</p>
     </div>
     <div class="product">
       <h2>Valkyrie Vekk</h2>
-      <p>Stå opp. Sloss. Gjenta.</p>
+      <p>Stå opp. Sloss. Gjenta. Mentol og adrenalin i hver slurk.</p>
     </div>
     <div class="product">
       <h2>Fenrirs Frokost</h2>
-      <p>Riv løs dagen med en ulv i magen.</p>
+      <p>Start dagen med kjøttsmak og kraft. Ulv i magen, råskap i blikket.</p>
     </div>
     <div class="product">
       <h2>Blodsprut Bær</h2>
-      <p>Smaken av slåsskamp og skogsbær.</p>
+      <p>Skogsbær og kaos i hver slurk. Drikk den kald, slåss varm.</p>
     </div>
     <div class="product">
       <h2>RagnarRÅ</h2>
-      <p>Ufiltrert. Ukontrollert. Ulovlig (i 3 land).</p>
-    </div>
-    <div class="product">
-      <h2>Mjød-X</h2>
-      <p>Kun én dråpe gir deg Odin-syn.</p>
+      <p>Ufiltrert. Ukontrollert. Forbudt i tre land. Akkurat som deg.</p>
     </div>
     <div class="product">
       <h2>Ulv i Kopp</h2>
-      <p>For mye kaffe? Nei. For lite blod.</p>
+      <p>Mer enn kaffe. Mindre enn helvete. Ulende energi rett i koppen.</p>
     </div>
   </div>
 
